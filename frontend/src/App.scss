@@ -1,3 +1,4 @@
+
 // Use this to set all the general styling for your application.
 .app__container {
   width: 100%;
@@ -5,6 +6,13 @@
 
   display: flex;
   flex-direction: row;
+}
+
+.app__container-small {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 0px;
 }
 
 .app__container-width {
@@ -20,7 +28,7 @@
 }
 
 .app__whitebg {
-  color: var(--white-color);
+  background-color: white;
 }
 
 .app__darkbg {
@@ -37,14 +45,16 @@ hr {
 // General Styles
 
 .head-text {
-  font-size: 2.75rem;
+  font-size: 3rem;
+  color: var(--grey-500);
   font-weight: 800;
-  text-align: center;
-  // Colour here
-  text-transform: capitalize;
-
   span {
-    color: var(--secondary-color);
+    background: -webkit-linear-gradient(
+      var(--secondary-color-blue),
+      var(--secondary-color-blue-gradient)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   @media screen and (min-width: 2000px) {
@@ -57,15 +67,46 @@ hr {
 }
 
 .p-text {
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-align: left;
-  color: var(--gray-color);
+  color: var(--grey-500);
   line-height: 1.5;
 
   @media screen and (min-width: 2000px) {
     font-size: 1.75rem;
   }
 }
-
-.btn {
+.tag{
+  font-weight: bold;
+  color: var(--grey-400);
 }
+
+a {
+  transition: all ease-in-out var(--timer-short);
+}
+
+button {
+  box-shadow: var(--box-shadow-3);
+  border-radius: 9px;
+  border: 2px solid var(--grey-400);
+  cursor: pointer;
+  transition: all ease-in-out var(--timer-short);
+}
+
+.header-btn {
+  padding: 0.9rem 2.5rem;
+  font-size: 0.8rem;
+  background-color: white;
+  font-size: bold;
+  width: 100%;
+  max-width: 300px;
+
+}
+
+.header-btn.work {
+  background-color: var(--grey-600);
+  color: white;
+  border-color: rgba(255, 255, 255, 0.856);
+  box-shadow: var(--accent-purple-blur) 0px 0px 20px;
+}
+

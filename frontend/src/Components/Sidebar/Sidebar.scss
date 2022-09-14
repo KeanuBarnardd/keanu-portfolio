@@ -1,0 +1,22 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  gap: 10px;
+  top: 50%;
+  left: 30px;
+  z-index: 100;
+  transform: translate(-50%, -50%);
+
+  a {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-size: 1.7rem;
+    text-decoration: none;
+    border: 1px solid var(--grey-100);
+    //box-shadow: var(--box-shadow-3);
+    color: var(--grey-400);
+  }
+}

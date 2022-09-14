@@ -9,19 +9,11 @@ const App = () => {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/" component={<Home />} />
-        <Route path="/resume" component={<Resume />} />
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/resume" element={<Resume />} />
       </Routes>
     </BrowserRouter>
   );
 };
-
-/*
-  HOME CONTAINER = / 
-    - ABOUT /#about
-    - PROJECTS /#projects
-    - CONTACT /#contact
-  RESUME CONTAINER = /resume
-*/
 
 export default App;

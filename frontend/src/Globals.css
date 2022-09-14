@@ -23,13 +23,28 @@
   --fs-header-1: 5.6rem;
 
   /*Custom-Main Colours to be changed to suit theme for website.*/
+
   --white-color: #fff;
   --primary-bg: rgb(250, 250, 250);
   --dark-bg: rgb(56, 56, 56);
-  --accent-orange: #f59e0b;
-  --accent-blue: #3b82f6;
-  --accent-pink: #ef4444;
-  --accent-green: #12bc00;
+  --accent-orange: #f59f0b60;
+  --accent-blue: #3b83f66e;
+  --accent-pink: #ff6c6c69;
+  --accent-green: #84df7a9d;
+  --accent-purple: rgba(183, 0, 255, 0.151);
+
+  --accent-orange-blur: #f5a51b4d;
+  --accent-blue-blur: #3b83f650;
+  --accent-pink-blur: #ffbdbda2;
+  --accent-green-blur: #71fa6259;
+  --accent-purple-blur: rgba(183, 0, 255, 0.151);
+
+  --secondary-color-blue: #3b82f6;
+  --secondary-color-blue-gradient: #06bdeb;
+  --secondary-color-red: #ef4444;
+  --secondary-color-red-gradient: #ef4444;
+  --secondary-color-orange: #f59e0b;
+  --secondary-color-orange-gradient: #f59e0b;
 
   /*Set Colours*/
   --grey-100: #e9ecef;
@@ -90,5 +105,7 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  font-family: "Inter", sans-serif;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
 }
