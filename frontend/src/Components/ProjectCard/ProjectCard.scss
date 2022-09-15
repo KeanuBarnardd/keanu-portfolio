@@ -6,6 +6,10 @@
   //box-shadow: var(--accent-blue-blur) 0px 0px 20px;
 
   .project-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
     width: 100%;
     max-width: 490px;
     height: 300px;
@@ -19,6 +23,32 @@
     transform: rotate(-3deg);
     box-shadow: var(--accent-blue-blur) 0px 0px 20px;
     margin: 1rem;
+    transition: ease-in-out all var(--timer-short);
+
+    .arrow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 10%;
+      height: 30%;
+      background-color: rgba(39, 39, 39, 0.178);
+      overflow: hidden;
+      cursor: pointer;
+      i {
+        font-size: 2rem;
+        color: rgba(255, 255, 255, 0.829);
+      }
+    }
+
+    .right-arrow {
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+
+    .left-arrow {
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
   }
 
   .project__container {
@@ -55,6 +85,14 @@
     display: flex;
     gap: 5px;
     padding: 0 1rem;
+    button{
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 7px;
+     
+    }
   }
 }
 

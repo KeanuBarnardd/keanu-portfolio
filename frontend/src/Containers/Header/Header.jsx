@@ -11,10 +11,10 @@ const Header = () => {
           <h1 className="header__name">Keanu Barnard.</h1>
           <h1>Web Developer from Melbourne.</h1>
           <div className="header__btn-container">
-            <HashLink to="/#footer">
+            <HashLink className="header__link" to="/#footer">
               <button className=" header-btn work">Lets Work</button>
             </HashLink>
-            <HashLink to="/resume">
+            <HashLink className="header__link" to="/resume">
               <button className=" header-btn">Resume</button>
             </HashLink>
           </div>

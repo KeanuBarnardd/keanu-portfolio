@@ -2,6 +2,7 @@ import React from "react";
 import "./Projects.scss";
 import { ProjectCard } from "../../Components";
 import { images } from "../../Constants/index";
+import { wilsonSlides, lavueSlides } from "../../Constants/Slides";
 
 const Projects = () => {
   return (
@@ -12,27 +13,31 @@ const Projects = () => {
           Checkout my <span>work</span>.
         </h1>
         <p className="p-text">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis earum deserunt mollitia
-          repellat quia, officiis officia consequuntur nemo temporibus dolor.
+          Here is a few of my hand picked favourite projects I've completed. All work included below is designed and built myself. 
         </p>
         <div className="projects__grid">
           <ProjectCard
+            slides={wilsonSlides}
             title={"Wilsons Trucking"}
             description={
-              "  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis earum deserunt mollitia repellat quia officiis officia consequuntur nemo temporibus doloribus rerum perspiciatis"
+              <p className="p-text">
+                Wilson's Trucks is a website I designed myself & created with <span>React</span>. The purpose is to advertise the business through a clean, modern & sharp tone. Including animations with <span>Framer-motion</span>, forms and beautiful UI incorporated into the companies orange theme.
+              </p>
             }
             bgImage={images.wilsonHeader}
           />
-        
+
           <ProjectCard
+            slides={lavueSlides}
             title={"La Vue Restaurant"}
             reverse="true"
             description={
-              "  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis earum deserunt mollitia repellat quia officiis officia consequuntur nemo temporibus doloribus rerum perspiciatis"
+              <p className="">
+                LaVue is a modern and minimilistic website that I designed for a sophisticated restaurant. I used <span>React</span> and <span>scss</span> in conjuction with <span>React-Router</span> to construct an elegant multi-page website.
+              </p>
             }
             bgImage={images.lavue}
           />
-       
         </div>
       </div>
     </div>

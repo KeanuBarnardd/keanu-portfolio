@@ -33,11 +33,15 @@ header {
     }
 
     .header__btn-container {
-      display: flex;
-      gap: 20px;
+      width: 100%;
 
+      display: flex;
+      gap: 8px;
       margin-top: 1.5rem;
-      
+      .header__link {
+        width: 100%;
+        max-width: 200px;
+      }
     }
   }
 }

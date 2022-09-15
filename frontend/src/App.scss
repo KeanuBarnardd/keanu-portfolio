@@ -1,4 +1,3 @@
-
 // Use this to set all the general styling for your application.
 .app__container {
   width: 100%;
@@ -71,12 +70,15 @@ hr {
   text-align: left;
   color: var(--grey-500);
   line-height: 1.5;
+  span{
+    font-weight: bold;
+  }
 
   @media screen and (min-width: 2000px) {
     font-size: 1.75rem;
   }
 }
-.tag{
+.tag {
   font-weight: bold;
   color: var(--grey-400);
 }
@@ -99,8 +101,10 @@ button {
   background-color: white;
   font-size: bold;
   width: 100%;
-  max-width: 300px;
-
+  &:hover{
+    background-color: var(--grey-400);
+    color:white;
+  }
 }
 
 .header-btn.work {
@@ -108,5 +112,8 @@ button {
   color: white;
   border-color: rgba(255, 255, 255, 0.856);
   box-shadow: var(--accent-purple-blur) 0px 0px 20px;
+  &:hover{
+    background-color: rgba(0, 0, 0, 0.808);
+    box-shadow: var(--accent-purple-blur) 0px 10px 30px;
+  }
 }
-
