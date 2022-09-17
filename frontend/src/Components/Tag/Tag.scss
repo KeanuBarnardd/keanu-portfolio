@@ -1,0 +1,19 @@
+.skill-tag {
+  padding: 0.1rem 0.5rem;
+  font-size: 0.9rem;
+
+  //border: 1px solid var(--secondary-color-blue);
+  border-radius: 4px;
+}
+
+.skill-tag.major {
+  background-color: var(--accent-blue);
+  border: 1px solid var(--accent-blue);
+  color: white;
+}
+
+.skill-tag.minor {
+  background-color: var(--grey-300);
+  color: white;
+  border: 1px solid var(--grey-400);
+}

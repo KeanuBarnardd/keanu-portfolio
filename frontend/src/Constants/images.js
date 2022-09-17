@@ -12,6 +12,15 @@ import lavueBooking from "../Assets/Images/lavueBooking.PNG";
 import lavueMenu from "../Assets/Images/lavueMenu.PNG";
 import lavueContact from "../Assets/Images/lavueContact.PNG";
 
+// Melbourne Slides
+import melbourneHeader from "../Assets/Images/melbourneHomes/header.PNG";
+import melbourneAbout1 from "../Assets/Images/melbourneHomes/about1.PNG";
+import melbourneAbout2 from "../Assets/Images/melbourneHomes/about2.PNG";
+import melbourneHome from "../Assets/Images/melbourneHomes/home.PNG";
+import melbourneListings from "../Assets/Images/melbourneHomes/listings.PNG";
+import melbourneContact from "../Assets/Images/melbourneHomes/contact.PNG";
+import melbourneMortgage from "../Assets/Images/melbourneHomes/mortgage.PNG";
+
 export default {
   logo,
 
@@ -26,4 +35,13 @@ export default {
   lavueBooking,
   lavueContact,
   lavueMenu,
+
+  // MelbourneHome slides
+  melbourneHome,
+  melbourneAbout1,
+  melbourneAbout2,
+  melbourneContact,
+  melbourneHeader,
+  melbourneListings,
+  melbourneMortgage,
 };

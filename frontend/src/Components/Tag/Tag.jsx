@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-import './Tag.scss';
+import "./Tag.scss";
 
-const Tag = () => {
-  return (
-    <div>Tag</div>
-  )
-}
+const Tag = ({ tagState, text }) => {
+  // Tag State will either be 'major' or 'minor' for styling...
 
-export default Tag
+  return <p className={`skill-tag ${tagState}`}>{text}</p>;
+};
+
+export default Tag;
