@@ -1,0 +1,17 @@
+.resume {
+  margin-top: 6rem;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  .resume__container {
+    .dropdown__content {
+      padding-top: 1rem;
+    }
+  }
+
+  .resume__side {
+    width: 100%;
+    max-width: 300px;
+    
+  }
+}

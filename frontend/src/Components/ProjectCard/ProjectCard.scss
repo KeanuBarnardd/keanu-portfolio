@@ -1,5 +1,6 @@
 .project__card {
   display: flex;
+  gap: 10px;
   border-radius: 10px;
   .project-img {
     display: flex;
@@ -13,8 +14,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    //border-top-right-radius: 0;
-    //border-bottom-right-radius: 0;
     border: 1px solid rgba(0, 0, 0, 0.199);
     transform: rotate(-3deg);
     box-shadow: var(--accent-blue-blur) 0px 0px 20px;
@@ -58,6 +57,8 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding-top: 1rem;
+    
     .project__details {
       h1 {
         font-size: 2.2rem;

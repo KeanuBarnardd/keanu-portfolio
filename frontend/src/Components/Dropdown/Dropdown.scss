@@ -1,0 +1,21 @@
+.dropdown__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
+  background-color: red;
+  .dropdown__title-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 0px;
+    width: 100%;
+  }
+
+
+  .dropdown__content{
+    display: none;
+  }
+
+  .dropdown__content.active{
+    display: block;
+  }
+}

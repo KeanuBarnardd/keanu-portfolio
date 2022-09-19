@@ -35,13 +35,10 @@
 }
 
 hr {
-  max-width: 80px;
-  width: 100%;
-  border: 3px solid var(--secondary-color);
-  margin-bottom: 1rem;
+  border-color: var(--grey-100);
+  border-bottom: none;
+  
 }
-
-// General Styles
 
 .head-text {
   font-size: 3rem;
@@ -70,7 +67,7 @@ hr {
   text-align: left;
   color: var(--grey-500);
   line-height: 1.5;
-  span{
+  span {
     font-weight: bold;
   }
 
@@ -101,9 +98,9 @@ button {
   background-color: white;
   font-size: bold;
   width: 100%;
-  &:hover{
+  &:hover {
     background-color: var(--grey-400);
-    color:white;
+    color: white;
   }
 }
 
@@ -112,7 +109,7 @@ button {
   color: white;
   border-color: rgba(255, 255, 255, 0.856);
   box-shadow: var(--accent-purple-blur) 0px 0px 20px;
-  &:hover{
+  &:hover {
     background-color: rgba(0, 0, 0, 0.808);
     box-shadow: var(--accent-purple-blur) 0px 10px 30px;
   }

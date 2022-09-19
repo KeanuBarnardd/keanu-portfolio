@@ -4,3 +4,4 @@ export { default as ProjectCard } from "./ProjectCard/ProjectCard";
 export { default as ProjectModal } from "./ProjectModal/ProjectModal";
 export { default as Sidebar } from "./Sidebar/Sidebar";
 export { default as Tag } from "./Tag/Tag";
+export { default as Dropdown } from "./Dropdown/Dropdown";
