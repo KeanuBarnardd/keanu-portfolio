@@ -37,7 +37,7 @@ nav {
       .nav-links {
         color: $nav-text-col;
         text-decoration: none;
-        font-size: .875rem;
+        font-size: 0.875rem;
         font-weight: 500;
         &:hover {
           transform: translateY(-2px);
@@ -63,6 +63,79 @@ nav {
         &:hover {
           transform: translateY(-2px);
         }
+      }
+    }
+
+    .nav__button {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 520px) {
+  nav {
+    .nav__content {
+      .nav__content-details {
+        display: none;
+      }
+
+      .nav__content-links {
+        display: none;
+      }
+      .nav__button {
+        display: flex;
+        font-size: 2rem;
+        color: var(--grey-500);
+        border: none;
+        background-color: rgba(231, 231, 231, 0);
+        box-shadow: none;
+      }
+    }
+  }
+
+  nav.active {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    height: 100%;
+    transition: all ease-in-out var(--timer-short);
+    .nav__content {
+      display: flex;
+
+      .nav__content-links {
+        display: flex;
+        flex-direction: column;
+
+        position: fixed;
+        top: 0;
+        height: 100%;
+        left: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+        gap: 30px;
+        text-align: center;
+        .nav-links {
+          font-size: 1.5rem;
+        }
+      }
+
+      .nav__content-details {
+        display: flex;
+       
+
+        .resume-link{
+          display: flex;
+          text-decoration: none;
+        }
+      }
+
+      .logo,
+      button,
+      .nav__content-details {
+        z-index: 2;
       }
     }
   }

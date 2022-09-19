@@ -1,21 +1,57 @@
 import React from "react";
 import { NavHashLink, HashLink } from "react-router-hash-link";
+import { useState } from "react";
 import "./Navbar.scss";
-import { images } from "../../Constants";
 
 const Navbar = () => {
+  const [displayMobileNav, setDisplayMobileNav] = useState(false);
+
+  const displayNav = () => {
+    displayMobileNav === true ? setDisplayMobileNav(false) : setDisplayMobileNav(true);
+    console.log("Nav beeing clicked");
+    console.log(displayMobileNav);
+  };
+
   return (
-    <nav className="app__flex">
+    <nav className={`app__flex nav ${displayMobileNav === true ? "active" : ""}`}>
       <div className="app__container-width nav__content">
-        <HashLink className="logo" to={"/"}> <h1>K<span>B</span></h1> </HashLink>
-        <div className="nav__content-links">
-          <NavHashLink className={"nav-links"} to="/#about">
+        <HashLink
+          onClick={() => {
+            setDisplayMobileNav(false);
+          }}
+          className="logo"
+          to={"/"}
+        >
+          <h1>
+            K<span>B</span>
+          </h1>
+        </HashLink>
+        <div className={"nav__content-links"}>
+          <NavHashLink
+            onClick={() => {
+              setDisplayMobileNav(false);
+            }}
+            className={"nav-links"}
+            to="/#about"
+          >
             About
           </NavHashLink>
-          <NavHashLink className={"nav-links"} to="/#projects">
+          <NavHashLink
+            onClick={() => {
+              setDisplayMobileNav(false);
+            }}
+            className={"nav-links"}
+            to="/#projects"
+          >
             Projects
           </NavHashLink>
-          <NavHashLink className={"nav-links"} to="/#footer">
+          <NavHashLink
+            onClick={() => {
+              setDisplayMobileNav(false);
+            }}
+            className={"nav-links"}
+            to="/#footer"
+          >
             Contact
           </NavHashLink>
         </div>
@@ -23,11 +59,13 @@ const Navbar = () => {
           <a href="">
             <i className="fa-brands fa-github"></i>
           </a>
-          <HashLink to="/resume">
-            {" "}
+          <HashLink className="resume-link" to="/resume">
             <button className="resume-btn">Resume</button>{" "}
           </HashLink>
         </div>
+        <button onClick={displayNav} className="nav__button">
+          <i className="fa-solid fa-bars"></i>
+        </button>
       </div>
     </nav>
   );

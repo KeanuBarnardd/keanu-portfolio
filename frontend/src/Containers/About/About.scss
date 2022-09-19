@@ -37,8 +37,22 @@
             transform: translateY(-5px);
           }
         }
+
+        @media screen and (max-width: 400px) {
+          flex-wrap: wrap;
+          i{
+            font-size: 3rem;
+          }
+          p{
+            font-size: 0.7rem;
+          }
+        }
       }
     }
+  }
+
+  @media screen and (max-width:600px) {
+    flex-direction: column;
   }
 
   img {

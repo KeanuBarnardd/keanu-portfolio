@@ -1,0 +1,110 @@
+#footer {
+  background-color: var(--grey-100);
+  border-top-left-radius: 30%;
+  padding-top: 4rem;
+
+  @media screen and (max-width: 700px) {
+    border-top-left-radius: 0%;
+  }
+
+  .form__container {
+    padding-top: 3rem;
+    @media screen and (max-width: 600px) {
+      padding-top: 1rem;
+    }
+    .form__content {
+      display: flex;
+      gap: 30px;
+
+      @media screen and (max-width: 600px) {
+        flex-direction: column-reverse;
+      }
+
+      form {
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        @media screen {
+          width: 100%;
+        }
+
+        .form__input-container {
+          display: flex;
+          flex-direction: column;
+          p {
+            font-size: 0.9rem;
+          }
+          input,
+          textarea {
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            resize: none;
+            max-height: 120px;
+            padding: 0.4rem;
+            color: var(--grey-400);
+          }
+        }
+      }
+
+      .form__right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        .form__grid {
+          display: grid;
+          gap: 10px;
+          margin-top: 0.4rem;
+          grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+          .form__contact {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            background-color: var(--grey-200);
+            max-width: 300px;
+            padding: 0.3rem 0.6rem;
+            border-radius: 10px;
+            overflow: hidden;
+            @media screen and (max-width: 600px) {
+              max-width: 100%;
+            }
+            p {
+              margin-bottom: 0;
+            }
+            a,
+            i {
+              color: var(--grey-500);
+            }
+            i {
+              font-size: 1.2rem;
+              padding: 0.4rem;
+              background-color: var(--grey-100);
+              border-radius: 100%;
+            }
+          }
+
+          p {
+            margin-bottom: 1rem;
+          }
+        }
+
+        .farewell {
+          margin-top: 1rem;
+        }
+      }
+    }
+
+    .form__bottom {
+      display: flex;
+      justify-content: center;
+      padding: 1rem 0px;
+
+      p {
+        font-size: 0.7rem;
+      }
+    }
+  }
+}
