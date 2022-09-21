@@ -1,0 +1,56 @@
+.resume__side {
+  position: sticky;
+  width: 20%;
+  max-width: 300px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  img {
+    width: 180px;
+    border-radius: 10px;
+    background-position: center;
+    height: 180px;
+    background-size: cover;
+  }
+  .title__container {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin-top: 0.8rem;
+    gap: 3px;
+
+    h3 {
+      color: var(--grey-500);
+    }
+    .sub-title {
+      color: var(--grey-400);
+      font-size: 0.9rem;
+      display: flex;
+      gap: 10px;
+    }
+  }
+
+  .resume__nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 10px;
+    width: 100%;
+    .resume__navlink {
+      text-align: left;
+      font-size: 0.9rem;
+      text-decoration: none;
+      color: var(--grey-400);
+      padding: 0.2rem;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .resume__navlink.active {
+      
+    }
+  }
+}

@@ -1,21 +1,39 @@
 .dropdown__container {
   display: flex;
   flex-direction: column;
-  width: 100%; 
-  background-color: red;
+  width: 100%;
   .dropdown__title-section {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0.2rem 0px;
     width: 100%;
+
+    h3{
+      font-size: 2rem;
+      color: var(--grey-700);
+    }
   }
 
+  button {
+    border: none;
+    box-shadow: none;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: var(--grey-300);
 
-  .dropdown__content{
+    &:hover {
+      background-color: var(--grey-200);
+    }
+  }
+
+  .dropdown__content {
     display: none;
   }
 
-  .dropdown__content.active{
+  .dropdown__content.active {
+    
     display: block;
   }
 }

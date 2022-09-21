@@ -5,3 +5,5 @@ export { default as ProjectModal } from "./ProjectModal/ProjectModal";
 export { default as Sidebar } from "./Sidebar/Sidebar";
 export { default as Tag } from "./Tag/Tag";
 export { default as Dropdown } from "./Dropdown/Dropdown";
+export { default as Exp } from "./Exp/Exp";
+export { default as ResumeNav } from "./ResumeNav/ResumeNav";

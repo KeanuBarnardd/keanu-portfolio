@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "./Dropdown.scss";
 
-const Dropdown = ({ tag, title, content }) => {
+const Dropdown = ({ tag, title, content,id }) => {
   const [dropdown, setDropdown] = useState(true);
 
   const toggleDropdown = () => {
@@ -11,18 +11,23 @@ const Dropdown = ({ tag, title, content }) => {
   };
 
   return (
-    <div className="dropdown__container">
+    <div className="dropdown__container" id={id}>
       <div className="dropdown__title-section">
         <div className="title">
           <p className="tag">{tag}</p>
-          <h1 className="head-text">{title}</h1>
+          <h3 className="head-text">{title}</h3>
         </div>
         <button
           onClick={() => {
             toggleDropdown();
           }}
         >
-          Show
+          {dropdown ? (
+            <i className="fa-solid fa-angle-down"></i>
+          ) : (
+            <i className="fa-solid fa-angle-up"></i>
+          )}
+        
         </button>
       </div>
       <hr />

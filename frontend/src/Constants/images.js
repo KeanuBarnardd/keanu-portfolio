@@ -20,9 +20,11 @@ import melbourneHome from "../Assets/Images/melbourneHomes/home.PNG";
 import melbourneListings from "../Assets/Images/melbourneHomes/listings.PNG";
 import melbourneContact from "../Assets/Images/melbourneHomes/contact.PNG";
 import melbourneMortgage from "../Assets/Images/melbourneHomes/mortgage.PNG";
+import keanu_portrait from "../Assets/Images/keanu_portrait.jpg";
 
 export default {
   logo,
+  keanu_portrait,
 
   // Wilson Slides
   wilsonHeader,
