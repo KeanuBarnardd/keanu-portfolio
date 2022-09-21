@@ -20,7 +20,7 @@ const Navbar = () => {
             setDisplayMobileNav(false);
           }}
           className="logo"
-          to={"/"}
+          to={"/#header"}
         >
           <h1>
             K<span>B</span>
@@ -56,10 +56,16 @@ const Navbar = () => {
           </NavHashLink>
         </div>
         <div className="nav__content-details">
-          <a href="">
+          <a href="https://github.com/KeanuBarnardd?tab=repositories" target="_blank">
             <i className="fa-brands fa-github"></i>
           </a>
-          <HashLink className="resume-link" to="/resume">
+          <HashLink
+            onClick={() => {
+              setDisplayMobileNav(false);
+            }}
+            className="resume-link"
+            to="/resume#resume"
+          >
             <button className="resume-btn">Resume</button>{" "}
           </HashLink>
         </div>

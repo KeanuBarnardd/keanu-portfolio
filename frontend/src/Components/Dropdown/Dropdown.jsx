@@ -2,12 +2,11 @@ import React from "react";
 import { useState } from "react";
 import "./Dropdown.scss";
 
-const Dropdown = ({ tag, title, content,id }) => {
+const Dropdown = ({ tag, title, content, id }) => {
   const [dropdown, setDropdown] = useState(true);
 
   const toggleDropdown = () => {
     dropdown === true ? setDropdown(false) : setDropdown(true);
-    console.log("Drop down clicked");
   };
 
   return (
@@ -21,13 +20,12 @@ const Dropdown = ({ tag, title, content,id }) => {
           onClick={() => {
             toggleDropdown();
           }}
-        >
+      >
           {dropdown ? (
             <i className="fa-solid fa-angle-down"></i>
           ) : (
             <i className="fa-solid fa-angle-up"></i>
           )}
-        
         </button>
       </div>
       <hr />

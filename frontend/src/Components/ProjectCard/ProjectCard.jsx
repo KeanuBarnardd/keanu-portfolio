@@ -2,7 +2,17 @@ import React from "react";
 import { useState } from "react";
 import "./ProjectCard.scss";
 
-const ProjectCard = ({ bgImage, projectLogo, title, description, reverse, slides, skills }) => {
+const ProjectCard = ({
+  bgImage,
+  projectLogo,
+  title,
+  description,
+  reverse,
+  slides,
+  skills,
+  projectLink,
+  githubLink,
+}) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   // Functionality
@@ -38,14 +48,12 @@ const ProjectCard = ({ bgImage, projectLogo, title, description, reverse, slides
         </div>
 
         <div className="project__buttons">
-          <button className="header-btn work">
-            {" "}
+          <a className="link-btn header-btn work" href={projectLink}target="_blank" >
             <i className="fa-solid fa-link"></i>Live Preview
-          </button>
-          <button className="header-btn">
-            {" "}
+          </a>
+          <a className="link-btn header-btn" href={githubLink} target="_blank" >
             <i className="fa-brands fa-github"></i>Github
-          </button>
+          </a>
         </div>
       </div>
     </div>

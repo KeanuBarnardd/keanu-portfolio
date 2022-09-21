@@ -4,8 +4,8 @@ import "./Header.scss";
 
 const Header = () => {
   return (
-    <div className="app__flex app__container">
-      <header className="app__container-width">
+    <div id="header" className="app__flex app__container">
+      <header  className="app__container-width">
         <div className="header__content">
           <h2>Welcome to my site </h2>
           <h1 className="header__name">Keanu Barnard.</h1>

@@ -14,34 +14,37 @@ const Footer = () => {
         <div className="form__content">
           <div className="form__right">
             <p className="p-text">
-              Lorem ipsum dolor sit amet <span>consectetur</span> adipisicing elit. Inventore quod
-              nulla consequuntur ullam <span>laudantium</span> , dolorem rem culpa eum pariatur
-              porro.
+              Shoot me an message if you have any questions or inquiries and I'll get right back to
+              you. You can also contact me on my socials below.
             </p>
             <div className="form__grid">
               <div className="form__contact">
-                <a href="">
+                <a href="https://github.com/KeanuBarnardd" target={"_blank"}>
                   <i className="fa-brands fa-github"></i>
                 </a>
                 <p className="p-text">KeanuBarnardd</p>
               </div>
               <div className="form__contact">
-                <a href="">
-                  <i className="fa-brands fa-github"></i>
+                <a href="https://twitter.com/keanu__dev" target={"_blank"}>
+                  <i className="fa-brands fa-twitter"></i>
                 </a>
-                <p className="p-text">KeanuBarnard</p>
+                <p className="p-text">@keanu__dev</p>
               </div>
               <div className="form__contact">
-                <i className="fa-regular fa-envelope"></i>
+                <a href="https://www.linkedin.com/in/keanu-b-262823118/" target={"_blank"}>
+                  <i className="fa-brands fa-linkedin"></i>
+                </a>
+
+                <p className="p-text">Keanu Barnard</p>
+              </div>
+              <div className="form__contact">
+                <i className="fa-solid fa-envelope"></i>
+
                 <p className="p-text">keanubarnardd@gmail.com</p>
-              </div>
-              <div className="form__contact">
-                <i className="fa-solid fa-phone"></i>
-                <p className="p-text">0455 847 718</p>
               </div>
             </div>
             <p className="p-text farewell">
-              Looking forward to hearing from you, <span>Keanu Barnard</span>
+              Looking forward to hearing from you, <span>Keanu Barnard</span>.
             </p>
           </div>
           <form action="">

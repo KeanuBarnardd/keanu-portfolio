@@ -62,7 +62,7 @@
           .form__contact {
             display: flex;
             align-items: center;
-            gap: 20px;
+            gap: 5px;
             background-color: var(--grey-200);
             max-width: 300px;
             padding: 0.3rem 0.6rem;
@@ -73,16 +73,23 @@
             }
             p {
               margin-bottom: 0;
+              font-size: 0.9rem;
             }
             a,
             i {
               color: var(--grey-500);
             }
+           
             i {
               font-size: 1.2rem;
               padding: 0.4rem;
               background-color: var(--grey-100);
               border-radius: 100%;
+              transition: all ease-in-out var(--timer-short);
+              &:hover{
+                background-color: var(--grey-500);
+                color: white;
+              }
             }
           }
 

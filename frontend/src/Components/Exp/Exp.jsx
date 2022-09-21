@@ -12,11 +12,10 @@ const Exp = ({ position, company, location, start, end, content }) => {
       </div>
       <div className="experience__content">
         <div className="company__details">
-          <p className="company">{company}</p> - <p className="location">{location}</p>
+          <p className="company">{company}-</p> <p className="location">{location}</p>
         </div>
         {content}
       </div>
-    
     </div>
   );
 };

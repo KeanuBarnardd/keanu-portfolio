@@ -5,13 +5,13 @@ import "./Sidebar.scss";
 const Sidebar = () => {
   return (
     <div className="sidebar">
-      <a href="">
+      <a href="https://github.com/KeanuBarnardd" target="_blank">
         <i className="fa-brands fa-github"></i>
       </a>
-      <a href="">
-        <i className="fa-regular fa-envelope"></i>
+      <a href="https://twitter.com/keanu__dev" target="_blank">
+        <i className="fa-brands fa-twitter"></i>
       </a>
-      <a href="">
+      <a href="https://www.linkedin.com/in/keanu-b-262823118/" target="_blank">
         <i className="fa-brands fa-linkedin"></i>
       </a>
     </div>

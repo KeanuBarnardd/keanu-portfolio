@@ -18,6 +18,11 @@
     border: 1px solid var(--grey-100);
     //box-shadow: var(--box-shadow-3);
     color: var(--grey-400);
+
+    &:hover{
+      background-color: var(--grey-400);
+      color: white;
+    }
   }
 }
 

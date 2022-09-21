@@ -37,7 +37,6 @@
 hr {
   border: 2px dashed var(--accent-blue);
   border-bottom: none;
-  
 }
 
 .head-text {
@@ -82,14 +81,21 @@ hr {
 
 a {
   transition: all ease-in-out var(--timer-short);
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  color: var(--grey-500);
+  text-decoration: none;
 }
 
-button {
+button,
+.link-btn {
   box-shadow: var(--box-shadow-3);
   border-radius: 9px;
   border: 2px solid var(--grey-400);
   cursor: pointer;
   transition: all ease-in-out var(--timer-short);
+  text-decoration: none;
 }
 
 .header-btn {

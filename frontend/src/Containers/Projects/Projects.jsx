@@ -21,6 +21,7 @@ const Projects = () => {
             slides={melbourneHomeSlides}
             title={"Melbourne Homes"}
             reverse=""
+            githubLink={'https://github.com/KeanuBarnardd/MelbourneHomes'}
             description={
               <p className="p-text">
                 Melbourne Home is a fully functional front end website/web app designed by myself and built with <span>React</span>. This application allows users to search,filter and view available properties in Melbourne. I've also included a mortgage calculator so users can determine how much their mortgage payments will be. 
@@ -42,6 +43,7 @@ const Projects = () => {
             slides={wilsonSlides}
             title={"Wilsons Trucking"}
             reverse="true"
+            githubLink={'https://github.com/KeanuBarnardd/Wilsons-Import-React'}
             description={
               <p className="p-text">
                 Wilson's Trucks is a website I designed myself & created with <span>React</span>.
@@ -65,6 +67,7 @@ const Projects = () => {
           <ProjectCard
             slides={lavueSlides}
             title={"La Vue Restaurant"}
+            githubLink={'https://github.com/KeanuBarnardd/la-vue-websit'}
             reverse=""
             description={
               <p className="p-text">
