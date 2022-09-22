@@ -1,14 +1,32 @@
 import React from "react";
 
 import "./Footer.scss";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 
 const Footer = () => {
+  const form = useRef();
+
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm("service_6irg3if", "template_zmo1u7j", form.current, "YAsjIEn76lx0iXVm0").then(
+      (result) => {
+        console.log(result.text);
+        console.log('Message Sent!');
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
+  }
+
   return (
     <div id="footer" className="app__flex">
       <div className="app__container-width form__container">
         <p className="tag">Contact</p>
         <h1 className="head-text">
-          Get in <span>Touch</span>
+          Get in <span>Touch</span>.
         </h1>
 
         <div className="form__content">
@@ -47,20 +65,20 @@ const Footer = () => {
               Looking forward to hearing from you, <span>Keanu Barnard</span>.
             </p>
           </div>
-          <form action="">
+          <form ref={form} onSubmit={sendEmail} action="">
             <div className="form__input-container">
               <p className="p-text">Name</p>
-              <input type="text" />
+              <input type="text" name="name" />
             </div>
             <div className="form__input-container">
               <p className="p-text">Email</p>
-              <input type="text" />
+              <input type="text" name="email" />
             </div>
             <div className="form__input-container">
               <p className="p-text">Message</p>
-              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <textarea name="message" id="" cols="30" rows="10"></textarea>
             </div>
-            <button className="header-btn work">Send</button>
+            <button type="submit" className="header-btn work">Send</button>
           </form>
         </div>
         <div className="form__bottom">

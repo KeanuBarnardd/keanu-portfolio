@@ -14,11 +14,7 @@ const Resume = () => {
               title="Intro"
               content={
                 <p className="p-text">
-                  I'm a self-taught web developer and ex restaurateur looking for a new challenge.
-                  For the last decade, I've build and helped early-stage startups to large
-                  enterprise companies build businesses that are simple, beautiful, and impactful in
-                  their field. I love encountering hard-to solve-problems and approach them with
-                  patience, determination and relentless perseverance.
+                  I'm a passionate self-taught developer studying for a Bachelor of Information Technology at Victoria University. My time is mostly spent creating beautiful front-end applications with seamless UX/UI. My current technology stack includes Javascript, React.JS, Html, CSS/SCSS, and node.js. I love encountering hard-to-solve problems and approach them with patience, determination, and relentless perseverance.
                 </p>
               }
             />
@@ -31,12 +27,12 @@ const Resume = () => {
                     position={"Electrician"}
                     company={"Nexus Electrical Solutions"}
                     location={"Oakleigh 3166, Melbourne "}
-                    start={"September 2020"}
+                    start={"September 2021"}
                     end={"Current"}
                     content={
                       <ul className="content__list">
                         <li>
-                          Cooperating with Programmers to carry out testing home automation testing
+                          Cooperating with Programmers to carry out home automation installing/testing
                           on Domestic & Commercial projects.{" "}
                         </li>
                         <li>Teaching,mentoring and overseeing apprentices.</li>
@@ -75,7 +71,7 @@ const Resume = () => {
                           Carrying out electrical work including rough-in, fit-offs and cut-outs.
                         </li>
                         <li>
-                          Working along side A-grade Electrcian, undertaking specific instrucations
+                          Working along side A-grade Electrcian, undertaking specific instructions
                           to complete tasks.
                         </li>
                         <li>Managing upkeep & storage of tools, materials and equipment.</li>
@@ -115,10 +111,9 @@ const Resume = () => {
                     content={
                       <ul className="content__list">
                         <li>
-                          egree will also provide you with a fundamental understanding of all
+                          Currently undertaking a Bachelor of IT to gain a fundamental understanding of all
                           aspects of computing, computer hardware, operating systems, computer
-                          networks, database systems, software engineering and organisational
-                          issues.{" "}
+                          networks, database systems and software engineering.
                         </li>
                       </ul>
                     }
@@ -131,9 +126,7 @@ const Resume = () => {
                     content={
                       <ul className="content__list">
                         <li>
-                          This certificate provides you with the skills to select, install, set up,
-                          test, repair and maintain electrical systems and equipment. On-the-job
-                          training with your employer is combined with studying{" "}
+                          Completed this certificate in 2021 to become a qualified electrician in Victoria. Providing me with the skills to select, install, set up, test, repair and maintain electrical systems and equipment. Completed through on-the-job training with combined study.
                         </li>
                       </ul>
                     }
@@ -141,14 +134,12 @@ const Resume = () => {
                   <Exp
                     company={"Cert II in Electrotechnology Studies"}
                     location={"Victoria University Polytechnic"}
-                    start={"November 2017"}
-                    end={"September 2020"}
+                    start={"Feburary 2017"}
+                    end={"August 2017"}
                     content={
                       <ul className="content__list">
                         <li>
-                          This certificate provides you with the skills to select, install, set up,
-                          test, repair and maintain electrical systems and equipment. On-the-job
-                          training with your employer is combined with studying{" "}
+                        Completed in 2017, this certification was used to learn all the fundamentals of the electrical trade as a pre-requisite to getting a position as an electrical apprentice. Over a 6 month period, I undertook this course.
                         </li>
                       </ul>
                     }
@@ -195,15 +186,7 @@ const Resume = () => {
               title={"Interests"}
               content={
                 <p className="p-text">
-                  After spending my childhood in Germany and early work career, I moved to Cape Town
-                  14 years ago. Cooking and hosting dinners for family and friends are some of my
-                  favorite activities, and I enjoy connecting with people through good food,
-                  technology, and intelligent discussion. You will often find me on and around Table
-                  Mountain, hiking or running with my dog Alpha. I am very excited about the new age
-                  Space Race and the innovation it brings, and I would like to witness a rocket
-                  launch in my lifetime. It is also important to me to keep up with web technology
-                  and UX design developments by listening to podcasts, attending local events,
-                  attending conferences, and using Twitter.
+                    After spending my childhood in New Zealand, I moved to Australia 12 years ago. Playing games, hanging out with friends, and enjoying sports have always been at the core of what I enjoy in life. As I have grown I've found a ton of fulfillment in accomplishing goals in sports, gym, my social life, and work. I try to cram as many activities into my day as possible. Going to work, completing uni assignments, gym, MMA training, and then always fitting some programming in before bed. On my off days, I'll go out with my mates or spend long days in bed on my 3rd playthrough of Elden Ring. It is important to me to also keep up with news or technology by constantly listening to audiobooks, podcasts, and recorded conferences, especially while I'm doing my daily commutes. 
                 </p>
               }
             />

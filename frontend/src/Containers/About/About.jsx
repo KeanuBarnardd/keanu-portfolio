@@ -13,10 +13,9 @@ const About = () => {
         <div className="about__container">
           <div className="about__details">
             <p className="p-text">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati itaque ex ducimus
-              ab, ipsam natus sit incidunt sequi, odio voluptas vero numquam ut magnam ratione
-              laboriosam eum voluptatum asperiores? Tempore. sequi, odio voluptas vero numquam ut
-              magnam ratione laboriosam eum voluptatum asperiores? Tempore.
+              I'm a <span>Melbourne</span> based student & developer. My focus area has been front-end development with <span>React</span> to create beautiful user- and developer experiences that bring delight. 
+
+              I've spent most of my life deeply invested in technology, stumbling across <span>Unity Game Engine</span> which sky rocketed my interest in programming from an early age. 
             </p>
             
             <div className="skills__container">

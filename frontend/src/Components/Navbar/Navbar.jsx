@@ -8,8 +8,6 @@ const Navbar = () => {
 
   const displayNav = () => {
     displayMobileNav === true ? setDisplayMobileNav(false) : setDisplayMobileNav(true);
-    console.log("Nav beeing clicked");
-    console.log(displayMobileNav);
   };
 
   return (
@@ -28,9 +26,12 @@ const Navbar = () => {
         </HashLink>
         <div className={"nav__content-links"}>
           <NavHashLink
+          activeclassName="selected"
+          activestyle={{fontSize: '10px'}}
             onClick={() => {
               setDisplayMobileNav(false);
             }}
+            
             className={"nav-links"}
             to="/#about"
           >
