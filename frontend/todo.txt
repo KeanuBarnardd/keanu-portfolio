@@ -1,6 +1,0 @@
-To do list
-
-- Complete the Resume section today 
-- Do side panel For resume
-- Make home button take you back to the header
-- Change Favicon to KB logo
