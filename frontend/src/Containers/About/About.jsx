@@ -1,23 +1,25 @@
 import React from "react";
 import { Timeline } from "../index";
 import "./About.scss";
-import keanu from '../../Assets/Images/keanu.svg';
+import { images } from "../../Constants/index";
 const About = () => {
   return (
     <div id="about" className="app__flex app__container">
       <div className="app__container-width">
-        <p className="tag">About</p>
-        <h1 className="head-text">
-          More <span>about</span> me.
-        </h1>
         <div className="about__container">
           <div className="about__details">
+            <p className="tag">About</p>
+            <h1 className="head-text">
+              More <span>about</span> me.
+            </h1>
             <p className="p-text">
-              I'm a <span>Melbourne</span> based student & developer. My focus area has been front-end development with <span>React</span> to create beautiful user- and developer experiences that bring delight. 
-
-              I've spent most of my life deeply invested in technology, stumbling across <span>Unity Game Engine</span> which sky rocketed my interest in programming from an early age. 
+              I'm a <span>Melbourne</span> based student & developer. My focus area has been
+              front-end development with <span>React</span> to create beautiful user- and developer
+              experiences that bring delight. I've spent most of my life deeply invested in
+              technology, stumbling across <span>Unity Game Engine</span> which sky rocketed my
+              interest in programming from an early age.
             </p>
-            
+
             <div className="skills__container">
               <div className="skill__container">
                 <i className="devicon-javascript-plain colored"></i>
@@ -41,7 +43,7 @@ const About = () => {
               </div>
             </div>
           </div>
-        <img src={keanu} alt="" />
+          <img src={images.keanu2} alt="" />
         </div>
       </div>
     </div>

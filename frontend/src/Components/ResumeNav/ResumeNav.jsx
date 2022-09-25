@@ -6,7 +6,7 @@ import "./ResumeNav.scss";
 const ResumeNav = () => {
   return (
     <div className="resume__side">
-      <img src={images.keanu_portrait} alt="" />
+      <img src={images.keanu2} alt="" />
       <div className="title__container">
         <h3>Keanu Barnard</h3>
         <p className="sub-title">

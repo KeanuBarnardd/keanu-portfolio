@@ -1,5 +1,7 @@
 import logo from "../Assets/Images/kb-1.png";
 
+import keanu1 from "../Assets/Images/keanuImage1.png";
+import keanu2 from "../Assets/Images/keanuImage2.png";
 // Wilson Slides
 import wilsonHeader from "../Assets/Images/wilsonHeader.PNG";
 import wilsonAbout from "../Assets/Images/wilsonAbout.PNG";
@@ -25,6 +27,8 @@ import keanu_portrait from "../Assets/Images/keanu_portrait.jpg";
 export default {
   logo,
   keanu_portrait,
+  keanu1,
+  keanu2,
 
   // Wilson Slides
   wilsonHeader,
