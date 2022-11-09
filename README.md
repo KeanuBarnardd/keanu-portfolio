@@ -9,11 +9,15 @@ This is my completed Portfolio website, that I will use to apply for jobs once I
 
 ### What I did different 
 I really wanted to add my resume as a page so that employers can quickly view my details directly from my website. But I did'nt want it to be just a standard resume layout. So I added the ablity to close and open sections of my resume so that it was easier to navigate it or read specific sections at a time.
+
+
 [Resume Image](./frontend/src/Assets/ReadMeImages/resume.PNG)
 
 
 ## Take a look 
 I aimed to create a smooth and coherently styled web page that looks sleek and modern. Keeping the grey,white and blue them along with soft edges helped create a tailwind-esque feel. 
+
+
 [Projects Image](./frontend/src/Assets/ReadMeImages/projects.PNG)
 
 <br>
