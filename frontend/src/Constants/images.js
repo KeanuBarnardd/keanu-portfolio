@@ -15,13 +15,21 @@ import lavueMenu from "../Assets/Images/lavueMenu.PNG";
 import lavueContact from "../Assets/Images/lavueContact.PNG";
 
 // Melbourne Slides
-import melbourneHeader from "../Assets/Images/melbourneHomes/header.PNG";
-import melbourneAbout1 from "../Assets/Images/melbourneHomes/about1.PNG";
-import melbourneAbout2 from "../Assets/Images/melbourneHomes/about2.PNG";
-import melbourneHome from "../Assets/Images/melbourneHomes/home.PNG";
-import melbourneListings from "../Assets/Images/melbourneHomes/listings.PNG";
-import melbourneContact from "../Assets/Images/melbourneHomes/contact.PNG";
-import melbourneMortgage from "../Assets/Images/melbourneHomes/mortgage.PNG";
+import melbHomesLogo from "../Assets/Images/melbourneHomes/melbourneHomesLogo.PNG";
+import melbHomesImage1 from "../Assets/Images/melbourneHomes/image1.PNG";
+import melbHomesImage2 from "../Assets/Images/melbourneHomes/image2.PNG";
+import melbHomesImage3 from "../Assets/Images/melbourneHomes/image3.PNG";
+import melbHomesImage4 from "../Assets/Images/melbourneHomes/image4.PNG";
+import melbHomesImage5 from "../Assets/Images/melbourneHomes/image5.PNG";
+
+// Procleaners
+import proCleanersLogo from "../Assets/Images/ProCleaners/ProCleanersLogo.PNG";
+import proCleansImage1 from "../Assets/Images/ProCleaners/image1.PNG";
+import proCleansImage2 from "../Assets/Images/ProCleaners/image2.PNG";
+import proCleansImage3 from "../Assets/Images/ProCleaners/image3.PNG";
+import proCleansImage4 from "../Assets/Images/ProCleaners/image4.PNG";
+import proCleansImage5 from "../Assets/Images/ProCleaners/image5.PNG";
+
 import keanu_portrait from "../Assets/Images/keanu_portrait.jpg";
 
 export default {
@@ -43,11 +51,18 @@ export default {
   lavueMenu,
 
   // MelbourneHome slides
-  melbourneHome,
-  melbourneAbout1,
-  melbourneAbout2,
-  melbourneContact,
-  melbourneHeader,
-  melbourneListings,
-  melbourneMortgage,
+  melbHomesLogo,
+  melbHomesImage1,
+  melbHomesImage2,
+  melbHomesImage3,
+  melbHomesImage4,
+  melbHomesImage5,
+
+  // Procleaners slides,
+  proCleanersLogo,
+  proCleansImage1,
+  proCleansImage2,
+  proCleansImage3,
+  proCleansImage4,
+  proCleansImage5,
 };

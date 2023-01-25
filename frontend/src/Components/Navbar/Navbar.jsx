@@ -23,7 +23,7 @@ const Navbar = () => {
           <h1>
             K<span>B</span>
           </h1>
-        </HashLink>
+        </HashLink> 
         <div className={"nav__content-links"}>
           <NavHashLink
           activeclassName="selected"

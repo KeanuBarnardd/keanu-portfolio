@@ -1,7 +1,7 @@
 [Header Image](./frontend/src/Assets/ReadMeImages/header.PNG)
 
 Check out my portfolio here : https://starlit-wisp-1f8a08.netlify.app/
-4IFGUHAsiutghaipugs9HIOUADFSGHUIOAGSHIUASDGHUIGASDHIU
+
 This is my completed Portfolio website, that I will use to apply for jobs once I've completed and add my projects to it. I designed and developed this website myself with React, HTML and CSS/SCSS. I used a variety of packages to complete this project including React-Router,React-scroll and email-js. 
 <br>
 

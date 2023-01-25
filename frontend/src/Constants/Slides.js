@@ -15,11 +15,19 @@ export const lavueSlides = [
 ];
 
 export const melbourneHomeSlides = [
-  images.melbourneHeader,
-  images.melbourneHome,
-  images.melbourneAbout1,
-  images.melbourneAbout2,
-  images.melbourneContact,
-  images.melbourneListings,
-  images.melbourneMortgage,
+  images.melbHomesLogo,
+  images.melbHomesImage1,
+  images.melbHomesImage2,
+  images.melbHomesImage3,
+  images.melbHomesImage4,
+  images.melbHomesImage5,
+];
+
+export const proCleanersSlides = [
+  images.proCleanersLogo,
+  images.proCleansImage1,
+  images.proCleansImage2,
+  images.proCleansImage3,
+  images.proCleansImage4,
+  images.proCleansImage5,
 ];
