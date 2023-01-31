@@ -1,5 +1,5 @@
 import React from "react";
-import { NavHashLink, HashLink } from "react-router-hash-link";
+import { NavHashLink } from "react-router-hash-link";
 import { images } from "../../Constants/index";
 import "./ResumeNav.scss";
 
