@@ -27,6 +27,7 @@ const Projects = () => {
             title={"Melbourne Homes"}
             reverse=""
             githubLink={"https://github.com/KeanuBarnardd/MelbourneHomes"}
+            projectLink={"https://melbhomes.com/"}
             description={
               <p className="p-text">
                 Melbourne Home is a fully functional front end website/web app designed by myself
@@ -51,10 +52,16 @@ const Projects = () => {
             slides={proCleanersSlides}
             title={"ProCleaners"}
             reverse="true"
+            projectLink={"https://procleanersmelb.com"}
             githubLink={"https://github.com/KeanuBarnardd/Pro-clean"}
             description={
               <p className="p-text">
-                ProCleaners is a website that I have built using <span>React</span> , CSS, and HTML. It is a website that provides information about cleaning services, including the types of services offered, prices, and company information. Users can also book cleaning services directly through the website. The website is designed to be user-friendly and visually appealing, making it easy for potential customers to navigate and find the information they need.  
+                ProCleaners is a website that I have built using <span>React</span> , CSS, and HTML.
+                It is a website that provides information about cleaning services, including the
+                types of services offered, prices, and company information. Users can also book
+                cleaning services directly through the website. The website is designed to be
+                user-friendly and visually appealing, making it easy for potential customers to
+                navigate and find the information they need.
               </p>
             }
             bgImage={images.wilsonHeader}
@@ -73,6 +80,7 @@ const Projects = () => {
             slides={wilsonSlides}
             title={"Wilsons Trucking"}
             reverse=""
+            projectLink={"https://beamish-fairy-6aeb9f.netlify.app/"}
             githubLink={"https://github.com/KeanuBarnardd/Wilsons-Import-React"}
             description={
               <p className="p-text">
@@ -97,7 +105,8 @@ const Projects = () => {
           <ProjectCard
             slides={lavueSlides}
             title={"La Vue Restaurant"}
-            githubLink={"https://github.com/KeanuBarnardd/la-vue-websit"}
+            projectLink={"https://roaring-mandazi-14bc62.netlify.app/"}
+            githubLink={"https://github.com/KeanuBarnardd/la-vue-website"}
             reverse="true"
             description={
               <p className="p-text">
