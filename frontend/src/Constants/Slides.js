@@ -15,7 +15,6 @@ export const lavueSlides = [
 ];
 
 export const melbourneHomeSlides = [
-  images.melbHomesLogo,
   images.melbHomesImage1,
   images.melbHomesImage2,
   images.melbHomesImage3,
@@ -24,7 +23,6 @@ export const melbourneHomeSlides = [
 ];
 
 export const proCleanersSlides = [
-  images.proCleanersLogo,
   images.proCleansImage1,
   images.proCleansImage2,
   images.proCleansImage3,

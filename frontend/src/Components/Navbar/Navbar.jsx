@@ -19,19 +19,17 @@ const Navbar = () => {
           }}
           className="logo"
           to={"/#header"}
+         
         >
           <h1>
             K<span>B</span>
           </h1>
-        </HashLink> 
+        </HashLink>
         <div className={"nav__content-links"}>
           <NavHashLink
-          activeclassName="selected"
-          activestyle={{fontSize: '10px'}}
             onClick={() => {
               setDisplayMobileNav(false);
             }}
-            
             className={"nav-links"}
             to="/#about"
           >
@@ -57,7 +55,11 @@ const Navbar = () => {
           </NavHashLink>
         </div>
         <div className="nav__content-details">
-          <a href="https://github.com/KeanuBarnardd?tab=repositories" target="_blank">
+          <a
+            href="https://github.com/KeanuBarnardd?tab=repositories"
+            rel="noreferrer"
+            target="_blank"
+          >
             <i className="fa-brands fa-github"></i>
           </a>
           <HashLink

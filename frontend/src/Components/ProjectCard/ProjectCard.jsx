@@ -48,10 +48,15 @@ const ProjectCard = ({
         </div>
 
         <div className="project__buttons">
-          <a className="link-btn header-btn work" href={projectLink}target="_blank" >
+          <a
+            className="link-btn header-btn work"
+            href={projectLink}
+            rel="noreferrer"
+            target="_blank"
+          >
             <i className="fa-solid fa-link"></i>Live Preview
           </a>
-          <a className="link-btn header-btn" href={githubLink} target="_blank" >
+          <a className="link-btn header-btn" href={githubLink} rel="noreferrer" target="_blank">
             <i className="fa-brands fa-github"></i>Github
           </a>
         </div>
