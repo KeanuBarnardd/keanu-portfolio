@@ -39,8 +39,8 @@ const Header = () => {
             <HashLink className="header__link" to="/#footer">
               <button className=" header-btn work">Lets Work</button>
             </HashLink>
-            <HashLink className="header__link" to="/resume">
-              <button className=" header-btn">Resume</button>
+            <HashLink className="header__link" to="/#projects">
+              <button className=" header-btn">My Projects</button>
             </HashLink>
           </motion.div>
         </div>
