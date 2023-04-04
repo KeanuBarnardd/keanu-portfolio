@@ -14,7 +14,7 @@ const About = () => {
             </h1>
             <p className="p-text">
               I'm a <span>Melbourne</span> based student & developer. My focus area has been
-              front-end development with <span>React</span> to create beautiful user- and developer
+              front-end development with <span>React</span> to create beautiful user and developer
               experiences that bring delight. I've spent most of my life deeply invested in
               technology, stumbling across <span>Unity Game Engine</span> which sky rocketed my
               interest in programming from an early age.
@@ -31,16 +31,13 @@ const About = () => {
               </div>
               <div className="skill__container">
                 <i className="devicon-css3-plain colored"></i>
-                <p>CSS</p>
+                <p>CSS/SCSS</p>
               </div>
               <div className="skill__container">
                 <i className="devicon-nodejs-plain colored"></i>
                 <p>Node Js</p>
               </div>
-              <div className="skill__container">
-                <i className="devicon-sass-original colored"></i>
-                <p>SASS</p>
-              </div>
+             
               <div className="skill__container">
                 <i class="devicon-csharp-plain colored"></i>
 
