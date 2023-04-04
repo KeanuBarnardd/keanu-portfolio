@@ -14,8 +14,6 @@ const App = () => {
 
         <Routes>
           <Route exact path="/" element={<Home />} />
-
-          <Route exact path="/resume" element={<Resume />} />
         </Routes>
       </BrowserRouter>
       <ToastContainer

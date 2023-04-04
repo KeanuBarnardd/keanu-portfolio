@@ -113,10 +113,10 @@ button,
 .header-btn.work {
   background-color: var(--grey-600);
   color: white;
-  border-color: rgba(255, 255, 255, 0.856);
-  box-shadow: var(--accent-purple-blur) 0px 0px 20px;
+  border-color: var(--grey-600);
+
   &:hover {
     background-color: rgba(0, 0, 0, 0.808);
-    box-shadow: var(--accent-purple-blur) 0px 10px 30px;
+    border-color: rgba(0, 0, 0, 0.808);
   }
 }

@@ -41,6 +41,16 @@ const About = () => {
                 <i className="devicon-sass-original colored"></i>
                 <p>SASS</p>
               </div>
+              <div className="skill__container">
+                <i class="devicon-csharp-plain colored"></i>
+
+                <p>C#</p>
+              </div>
+              <div className="skill__container">
+                <i class="devicon-mysql-plain colored"></i>
+
+                <p>MySQL</p>
+              </div>
             </div>
           </div>
           <img src={images.keanu2} alt="" />

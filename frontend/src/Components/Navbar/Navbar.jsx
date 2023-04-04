@@ -62,15 +62,6 @@ const Navbar = () => {
           >
             <i className="fa-brands fa-github"></i>
           </a>
-          <HashLink
-            onClick={() => {
-              setDisplayMobileNav(false);
-            }}
-            className="resume-link"
-            to="/resume#resume"
-          >
-            <button className="resume-btn">Resume</button>{" "}
-          </HashLink>
         </div>
         <button onClick={displayNav} className="nav__button">
           <i className="fa-solid fa-bars"></i>

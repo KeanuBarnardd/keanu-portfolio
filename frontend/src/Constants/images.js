@@ -30,6 +30,15 @@ import proCleansImage3 from "../Assets/Images/ProCleaners/image3.PNG";
 import proCleansImage4 from "../Assets/Images/ProCleaners/image4.PNG";
 import proCleansImage5 from "../Assets/Images/ProCleaners/image5.PNG";
 
+// IronAthlete
+import ironAthlete1 from "../Assets/Images/IronAthlete/home.PNG";
+import ironAthlete2 from "../Assets/Images/IronAthlete/shop.PNG";
+import ironAthlete3 from "../Assets/Images/IronAthlete/login.PNG";
+import ironAthlete4 from "../Assets/Images/IronAthlete/allProducts.PNG";
+import ironAthlete5 from "../Assets/Images/IronAthlete/shoppingCart.PNG";
+import ironAthlete6 from "../Assets/Images/IronAthlete/allOrders.PNG";
+import ironAthlete7 from "../Assets/Images/IronAthlete/payment.PNG";
+
 import keanu_portrait from "../Assets/Images/keanu_portrait.jpg";
 
 export default {
@@ -65,4 +74,13 @@ export default {
   proCleansImage3,
   proCleansImage4,
   proCleansImage5,
+
+  // IronAthlete Slides
+  ironAthlete1,
+  ironAthlete2,
+  ironAthlete3,
+  ironAthlete4,
+  ironAthlete5,
+  ironAthlete6,
+  ironAthlete7,
 };

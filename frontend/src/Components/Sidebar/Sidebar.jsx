@@ -11,7 +11,7 @@ const Sidebar = () => {
       <a href="https://twitter.com/keanu__dev" target="_blank">
         <i className="fa-brands fa-twitter"></i>
       </a>
-      <a href="https://www.linkedin.com/in/keanu-b-262823118/" target="_blank">
+      <a href="https://www.linkedin.com/in/keanu-barnard-057378264/" target="_blank">
         <i className="fa-brands fa-linkedin"></i>
       </a>
     </div>

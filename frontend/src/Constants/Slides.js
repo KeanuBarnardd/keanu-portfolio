@@ -14,6 +14,16 @@ export const lavueSlides = [
   images.lavueContact,
 ];
 
+export const ironAthlete = [
+  images.ironAthlete1,
+  images.ironAthlete2,
+  images.ironAthlete3,
+  images.ironAthlete4,
+  images.ironAthlete5,
+  images.ironAthlete6,
+  images.ironAthlete7,
+];
+
 export const melbourneHomeSlides = [
   images.melbHomesImage1,
   images.melbHomesImage2,

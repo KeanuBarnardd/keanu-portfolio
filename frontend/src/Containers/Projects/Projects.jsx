@@ -7,6 +7,7 @@ import {
   lavueSlides,
   melbourneHomeSlides,
   proCleanersSlides,
+  ironAthlete
 } from "../../Constants/Slides";
 
 const Projects = () => {
@@ -22,6 +23,29 @@ const Projects = () => {
           is designed and built myself.
         </p>
         <div className="projects__grid">
+        <ProjectCard
+            slides={ironAthlete}
+            title={"IronAthlete"}
+            reverse="true"
+            projectLink={"https://ironathletestore.com/"}
+            githubLink={"https://github.com/KeanuBarnardd/IronAthlete"}
+            description={
+              <p className="p-text">
+                Iron Athlete is a fully functional ecommerce store. It is fully responsive and features a robust set of features for both customers and admin users, including product browsing and filtering, purchasing products, creating new products, processing orders, and viewing user products. With its user-friendly interface and comprehensive set of features, Iron Athlete is a great example of my web development skills and expertise.
+              </p>
+            }
+            bgImage={images.wilsonHeader}
+            skills={
+              <>
+                <Tag text={"React/Typescript"} tagState={"major"} />
+                <Tag text={"C#"} tagState={"major"} />
+                <Tag text={"HTML/CSS"} tagState={"major"} />
+                <Tag text={"SQL"} tagState={"major"} />
+                <Tag text={"Azure"} tagState={"minor"} />
+              </>
+            }
+          />
+
           <ProjectCard
             slides={melbourneHomeSlides}
             title={"Melbourne Homes"}

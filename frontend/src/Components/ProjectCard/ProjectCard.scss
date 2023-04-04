@@ -14,9 +14,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.199);
-    transform: rotate(-3deg);
-    box-shadow: var(--accent-blue-blur) 0px 0px 20px;
+    box-shadow: var(--box-shadow-2);
+
     margin: 1rem;
     transition: ease-in-out all var(--timer-short);
     @media screen and (max-width: 780px) {
@@ -24,8 +23,6 @@
       margin-left: auto;
       margin-right: auto;
       max-width: 100%;
-      transform: rotate(0deg);
-      
     }
     .arrow {
       display: flex;
@@ -58,7 +55,7 @@
     flex-direction: column;
     width: 100%;
     padding-top: 1rem;
-    
+
     .project__details {
       h1 {
         font-size: 2.2rem;
@@ -101,10 +98,8 @@
     flex-direction: column-reverse;
   }
   .project-img {
-    transform: rotate(2deg);
     @media screen and (max-width: 780px) {
       margin-top: 2rem;
-      transform: rotate(0deg);
     }
   }
 }
