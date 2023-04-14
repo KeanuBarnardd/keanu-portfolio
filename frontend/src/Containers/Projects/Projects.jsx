@@ -38,9 +38,10 @@ const Projects = () => {
             skills={
               <>
                 <Tag text={"React/Typescript"} tagState={"major"} />
+                <Tag text={"Redux"} tagState={"major"} />
                 <Tag text={"C#"} tagState={"major"} />
                 <Tag text={"HTML/CSS"} tagState={"major"} />
-                <Tag text={"SQL"} tagState={"major"} />
+                <Tag text={"MySQL"} tagState={"major"} />
                 <Tag text={"Azure"} tagState={"minor"} />
               </>
             }
